@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import ClassComp from './Components/ClassComp';
+import Counter from './Components/Counter';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -14,6 +15,11 @@ export default function App() {
       }}>
         Click
       </button>
+      <br />
+      <br />
+      <br />
+      <Counter />
+
       
     </div>
   );
