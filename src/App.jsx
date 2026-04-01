@@ -3,6 +3,7 @@ import ClassComp from './Components/ClassComp';
 import UseEffect from './Components/useEffect';
 import Counter from './Components/Counter';
 import UseRef from './Components/useRef';
+import UseMemo from './Components/useMemo';
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -20,7 +21,8 @@ export default function App() {
 
   return (
     <div>
-      <UseRef />
+      {/* <UseRef /> */}
+      <UseMemo />
       {user.name}
       {user.age}
       <br />

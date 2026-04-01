@@ -33,6 +33,7 @@ function UseRef() {
         <p>Here are some common use cases for useRef:</p>
         <hr />
         <h2>1. Accessing DOM Elements</h2>
+            {inputRef.current?.value}
             <input ref={inputRef} type="text" placeholder='Write something' />
             <button onClick={focusMood}>Focus</button>
         <hr />
